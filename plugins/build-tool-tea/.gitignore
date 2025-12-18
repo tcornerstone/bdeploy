@@ -1,2 +1,4 @@
 !.classpath
 !.project
+**/target/*
+!bundles/io.bdeploy.tea.plugin/target/maven/api*

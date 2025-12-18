@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <feature id="io.bdeploy.tea.feature">
+    <category name="io.bdepploy.tea.id"/>
+  </feature>
+  <category-def name="io.bdeploy.tea.id" label="TEA BDeploy Plugin">
+    <description>
+      Integration of BDeploy into TEA
+    </description>
+  </category-def>
+</site>
