@@ -63,7 +63,7 @@
   <setupTask
       xsi:type="git:GitCloneTask"
       id="git.clone.build-tool-tea"
-      remoteURI="bdeployteam/bdeploy">
+      remoteURI="tcornerstone/bdeploy">
     <annotation
         source="http://www.eclipse.org/oomph/setup/InducedChoices">
       <detail
@@ -118,7 +118,7 @@
     <setupTask
         xsi:type="setup:EclipseIniTask"
         option="-Doomph.redirection.build-tool-tea"
-        value="=https://raw.githubusercontent.com/bdeployteam/bdeploy/master/plugins/build-tool-tea/oomph/TeaBDeployPlugin.setup->${git.clone.build-tool-tea.location|uri}/plugins/build-tool-tea/oomph/TeaBDeployPlugin.setup"
+        value="=https://raw.githubusercontent.com/tcornerstone/bdeploy/master/plugins/build-tool-tea/oomph/TeaBDeployPlugin.setup->${git.clone.build-tool-tea.location|uri}/plugins/build-tool-tea/oomph/TeaBDeployPlugin.setup"
         vm="true">
       <description>Set an Oomph redirection system property to redirect the logical location of this setup to its physical location in the Git clone.</description>
     </setupTask>
